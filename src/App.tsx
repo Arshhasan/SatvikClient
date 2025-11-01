@@ -9,7 +9,7 @@ import MindBody from './pages/MindBody';
 import Challenges from './pages/Challenges';
 import Community from './pages/Community';
 import Profile from './pages/Profile';
-
+import AdminDashboard from './pages/AdminDashboard'
 function App() {
   const [activePage, setActivePage] = useState('home');
 
@@ -31,6 +31,8 @@ function App() {
         return <Community />;
       case 'profile':
         return <Profile />;
+      case 'admindashboard':
+        return <AdminDashboard/>
       default:
         return <Home setActivePage={setActivePage} />;
     }
