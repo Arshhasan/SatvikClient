@@ -31,7 +31,7 @@ function App() {
         return <Community />;
       case 'profile':
         return <Profile />;
-      case 'admindashboard':
+      case 'instructordashboard':
         return <AdminDashboard/>
       default:
         return <Home setActivePage={setActivePage} />;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Sidebar from "../components/SideBar";
-import Breadcrumbs from "../components/BreadCrumbs";
+import Breadcrumbs from "../components/Breadcrumbs";
 import AddCourse from "./AddCourse";
 import AddLesson from "./AddLesson";
 import AllCourses from "../components/AllCourses";

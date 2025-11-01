@@ -13,7 +13,7 @@ export default function Navbar({ activePage, setActivePage }) {
     { id: 'challenges', label: 'Challenges' },
     { id: 'community', label: 'Community' },
     { id: 'profile', label: 'Profile' },
-    { id : 'admindashboard', label:'admindashboard'}
+    { id : 'instructordashboard', label:'Instructor dashboard'}
   ];
 
   return (
